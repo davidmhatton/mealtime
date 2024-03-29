@@ -1,5 +1,5 @@
 {
-  "extends": ["react-app", "plugin:react/recommended"],
+  "extends": [],
   "rules": {
     "block-spacing": "error",
     "comma-dangle": ["error", "always-multiline"]

@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { Typography } from "@mui/material";
+import TopBar from "./components/TopBar";
 
 function App() {
   return (
     <div className="App">
-      <Typography variant="h1">Mealtime</Typography>
+      <TopBar />
     </div>
   );
 }
