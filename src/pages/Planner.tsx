@@ -1,11 +1,13 @@
 import React, { FC } from 'react';
-import { Typography } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 
 const Planner: FC = () => {
   return (
-    <Typography variant="h1">
-      Planner
-    </Typography>
+    <Container maxWidth="lg">
+      <Typography variant="h1">
+        Planner
+      </Typography>
+    </Container>
   );
 };
 
